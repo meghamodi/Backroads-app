@@ -31,6 +31,7 @@ export function Navbar() {
                   <a
                     href={socialLink.href}
                     target='_blank'
+                    rel='noreferrer'
                     className='nav-icon'
                   >
                     <i className={socialLink.icon}></i>
