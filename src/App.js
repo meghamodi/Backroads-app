@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <Hero />
       <About />
       <Services />
