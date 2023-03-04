@@ -1,4 +1,4 @@
-export const Service = ({ icon, text, title, id }) => {
+const Service = ({ icon, title, text }) => {
   return (
     <article className='service'>
       <span className='service-icon'>
@@ -11,3 +11,4 @@ export const Service = ({ icon, text, title, id }) => {
     </article>
   )
 }
+export default Service
