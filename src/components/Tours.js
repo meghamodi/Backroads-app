@@ -1,11 +1,13 @@
 import { tours } from '../data'
 import Title from './Title'
+import Tour from './Tour'
 export function Tours() {
   return (
     <section className='section' id='tours'>
       <Title title='featured' subTitle='tours' />
+      <Tour />
 
-      <div className='section-center featured-center'>
+      {/* <div className='section-center featured-center'>
         {tours.map(tour => {
           return (
             <article className='tour-card' key={tour.id}>
@@ -32,7 +34,7 @@ export function Tours() {
             </article>
           )
         })}
-      </div>
+      </div> */}
     </section>
   )
 }
